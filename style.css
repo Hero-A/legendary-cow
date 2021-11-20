@@ -1,0 +1,13 @@
+body{
+    background-color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:rgb(250, 242, 208);
+    text-align: center;
+}
+
+.title_maker{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: ghostwhite;
+}

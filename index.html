@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajas/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="col-xs-12 title_maker header_div">
+        <h2>Recogising animals with sound</h2>
+        <p>Note: make sounds like a tiger, cat, dog or a cow and wait for the magic.</p>
+    </div>
+    <div class="main_div">
+        <center>
+            <hr>
+            <br>
+            <hr>
+            <button class="btn btn-danger" onclick="start()">S T A R T</button>
+            <h4 id="result_count"></h4>
+            <h3 id="result_label">I can hear - </h3> <br> <img id="animal_image" src="Hi.gif" width="300" height="300">
+            <br>
+            <img src="cat.png" id="cat" width="250" height="250">
+            <img src="bull.png" id="cow" width="250" height="200">
+            <img src="unnamed.png" id="tiger" width="250" height="200">
+            <img src="german shepard.png" id="dog" width="250" height="250">
+        </center>
+    </div>
+    <div class="copy_right_footer">
+        Designed by Vihaan
+    </div>
+</body>
+
+</html>
